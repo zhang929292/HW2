@@ -4,7 +4,7 @@
 class Solution {
 public:
   int IntSwapRef(int& num1, int& num2);
-  void IntSwapPtr(int *num1, int *num2) ;
+  void swap_point(int *a, int *b);
 };
 
 #endif

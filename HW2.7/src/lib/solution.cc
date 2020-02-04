@@ -3,7 +3,7 @@
 
 void Solution::ismap(string& a, string & b){
 	if (a.length() != b.length())
-		std::cout<<"{}";
+		std::cout<< "{}"<<std::endl;
 	else {
 		int charmap[256];
 		memset(charmap, -1, sizeof(charmap));
@@ -11,7 +11,7 @@ void Solution::ismap(string& a, string & b){
 			if (charmap[a[i]] == -1)
 				charmap[a[i]] = b[i];
 			else if (charmap[a[i]] != b[i]){
-				std::cout<<"{}";
+				std::cout<< "{}"<<std::endl;
 				return;
 			}
 		}

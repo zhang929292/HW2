@@ -4,7 +4,7 @@
 int main()
 {
     Solution solution ;
-    string a ="egg";
+    string a ="eagg";
     string b ="abb";
     solution.ismap(a, b) ;
 

@@ -1,5 +1,6 @@
 #ifndef TEMPLATE_SOLUTION_H
 #define TEMPLATE_SOLUTION_H
+// using namespace std;
 
 
 

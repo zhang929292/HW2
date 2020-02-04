@@ -4,12 +4,12 @@
 int main()
 {
     Solution solution ;
-    int num1 = 20;
+    int num1 = 30;
     int num2 = 10;
 
-    //solution.IntSwapRef(num1, num2);
-
-    solution.IntSwapPtr(p1, p2);
-
-    return EXIT_SUCCESS;
+    solution.swap_point(&num1, &num2);
+    std::cout<<"num1: "<< (num1) <<" num2: "<< (num2) <<std::endl;
+    // solution.IntSwapRef(num1, num2);
+    // std::cout<<"num1: "<<num1<<" num2: "<<num2<<std::endl;
+     return EXIT_SUCCESS;
 }

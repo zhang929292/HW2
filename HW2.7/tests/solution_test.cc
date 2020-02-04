@@ -1,10 +1,14 @@
 #include "src/lib/solution.h"
 #include "gtest/gtest.h"
-#include <vector>
+
 
 TEST(HelloWorldShould, ReturnHelloWorld) {
+  string c;
   Solution solution;
-  std::string actual = solution.PrintHelloWorld();
-  std::string expected = "**** Hello World ****";
+  string a ="eegg";
+  string b ="abb";
+  actual = solution.ismap(a, b);
+
+  std::string expected = "{}";
   EXPECT_EQ(expected, actual);
 }
